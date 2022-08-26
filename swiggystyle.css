@@ -1,0 +1,290 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header start */
+header{
+    display: inline-flex;
+}
+.header1{
+    margin-left: 150px;
+}
+nav{
+    display: inline-flex;
+    margin-top: 50px;
+}
+.header1 nav img{
+    height: 60px;
+    width: 200px;
+    
+}
+
+.login {
+    margin-left: 200px;
+    margin-top: 10px;
+    
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.login a:hover{
+    color: #fc8019;
+}
+
+.login input{
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    border: none;
+}
+.header1 h1{
+    font-size: 45px;
+    margin-top: 70px;
+    color: #282c3f;
+}
+.p1{
+    font-size: 25px;
+    color: #737582;
+    margin-top: -20px;
+}
+
+.searchfood{
+    margin-top: 50px;
+}
+.searchfood .search1{
+    height: 50px;
+    width: 350px;
+    color: #737582;
+    border: 1px solid #737582;
+    border-right: none;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.searchfood .locateme{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid #737582;
+    border-left: none;
+    border-right: none;
+    font-size: 17px;
+    margin-left: -5px;
+}
+.searchfood .locateme:hover{
+    background-color:#b0b1b6 ;
+}
+.searchfood .findfood{
+    height: 50px;
+    width: 150px;
+    background-color:#fc8019 ;
+    color: white;
+    font-size: 17px;
+    margin-left: -5px;
+    border: none;
+}
+.popularcities h3{
+    margin-top: 50px;
+    color: rgb(100, 98, 98);
+}
+.popularcities a{
+    font-size: 17px;
+    padding-right:5px ;
+    text-decoration: none;
+}
+.popularcities a:nth-child(even){
+    color: rgb(61, 59, 59);
+}
+.popularcities a:nth-child(odd){
+    color: rgb(139, 136, 136);
+}
+
+.header2 img{
+    height: 600px;
+    width: 710px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+/* header end */
+
+
+/* section1 start */
+section {
+   display: inline-flex;
+   background-color: #2b1e16;
+   width: 100%;
+   margin-top: -5px;
+   height: 360px;
+}
+section figure{
+    margin-left: 200px;
+    height: 300px;
+    width: 250px;
+    
+}
+section figure img{
+    height: 170px;
+    width: 100px;
+    text-align: center;
+    margin-left: 60px;
+}
+section figure figcaption {
+    color: white;
+    text-align: center;
+}
+
+/* section1 end */
+
+
+/* section2 start */
+.section2{
+    display: inline-flex;
+}
+.section2part1{
+    margin-top: 150px;
+    margin-left: 150px;
+
+}
+.section2part1 p{
+    font-size: 18px;
+    color: rgb(100, 98, 98);
+}
+.section2part1 img{
+    height: 50px;
+    width: 180px;
+    margin-top: 50px;
+    
+}
+.section2part1 .img2{
+    margin-left: 20px;
+}
+.section2part2{
+    margin-left: 50px;
+}
+.section2part2 .img3{
+    height: 550px;
+    width: 400px;
+}
+.section2part2 .img4{
+    height: 550px;
+    width: 400px;
+    
+}
+
+/* section2 end */
+
+
+/* footer start */
+.footer1{
+    width: 100%;
+    
+    background-color: black;
+    margin-top: -5px;
+    display: inline-flex;
+}
+.footer1 .tab1{
+    text-decoration: none;
+    text-align: justify;
+    font-size: 20px;
+    
+    padding-top: 100px;
+    
+}
+
+
+.footer1 .tab1 tr td{
+    padding-left: 150px;
+    padding-top: 10px;
+    color: #737582;
+}
+.footer1 .tab1 tr td:hover{
+    color: white;
+}
+.footer1 .tab1 tr th{
+    padding-left: 150px;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer1 .tab2 tr td img{
+    height: 80px;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.footer1 .tab2 tr td .img6{
+    margin-top: -80px;
+}
+
+
+.footer2{
+    width: 100%;
+    background-color: black;
+    margin-top: -20px;
+    
+    padding-top: 70px;
+    
+}
+.footer2 .tab1{
+    padding-top: 100px;
+    text-align: justify;
+}
+.footer2 .tab1 tr th{
+    color: white;
+    padding-bottom: 25px;
+    padding-left: 150px;
+}
+.footer2 .tab1 tr td{
+    color: rgb(100, 98, 98);
+    padding-top: 7px;
+    padding-left: 150px;
+    font-size: 20px;
+}
+.footer2 .tab1 tr td:hover{
+    color: white;
+}
+
+
+.footer3 {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: -20px;
+    padding-top: 50px;
+    color: white;
+}
+.footer3 .tab1{
+    padding-top: 50px;
+    
+}
+.footer3 .tab1 tr td{
+    padding-left: 150px;
+}
+.footer3 .tab1  tr td  img{
+    height: 60px;
+    width: 200px;
+}
+.footer3 .tab1 .tab2 tr td div {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 50%;
+    margin-left: -100px;
+}
+.td2{
+    font-size: 40px;
+}
+.footer3 .tab1 .tab2 tr td div img{
+height: 50px;
+width: 50px;
+
+}
+
+/* footer end */
